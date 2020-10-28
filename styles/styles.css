@@ -1,0 +1,110 @@
+h1,
+h2,
+h3,
+body,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-size: 48px;
+  color: #eeeeef;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.profissao {
+  font-size: 16px;
+}
+
+.t60 {
+  color: #eeeeef;
+}
+
+body {
+  background: #eeeeef;
+}
+
+header {
+  background: #272e39;
+  padding: 32px 64px;
+}
+
+/* Ajustes para meu desktop */
+
+header > img {
+  width: 250px;
+  height: 250px;
+}
+
+.dados {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.foto {
+  border: 15px solid #272e39;
+  border-radius: 50%;
+  margin-bottom: -120px;
+  margin-right: 30px;
+}
+
+main {
+  padding: 40px 70px;
+}
+
+.coluna-menor {
+  margin-top: 48px;
+}
+
+.linha {
+  width: 80px;
+  border-top: 2px solid;
+  margin-top: 8px;
+}
+
+.experiencias .linha {
+  border-color: #947ffe;
+}
+.formacao .linha {
+  border-color: #51fb7c;
+}
+
+.coluna-menor img {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.coluna li {
+  margin-top: 32px;
+}
+
+.conteudo {
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding-bottom: 20px;
+}
