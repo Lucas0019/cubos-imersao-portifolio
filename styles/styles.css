@@ -27,15 +27,14 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
-.profissao {
-  font-size: 16px;
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
 }
 
-.t70 {
-  color: #eeeeef;
-}
-.t60 {
-  color: #272e39;
+li {
+  padding-bottom: 20px;
 }
 
 body {
@@ -45,6 +44,7 @@ body {
 header {
   background: #272e39;
   padding: 32px 64px;
+  width: 100vw;
 }
 
 /* Ajustes para meu desktop */
@@ -52,6 +52,11 @@ header {
 header > img {
   width: 250px;
   height: 250px;
+}
+
+main {
+  padding: 40px 70px;
+  display: flex;
 }
 
 .dados {
@@ -65,13 +70,20 @@ header > img {
   margin-bottom: -120px;
   margin-right: 30px;
 }
+.profissao {
+  font-size: 16px;
+}
 
-main {
-  padding: 40px 70px;
+.t70 {
+  color: #eeeeef;
+}
+.t60 {
+  color: #272e39;
 }
 
 .coluna-menor {
   margin-top: 48px;
+  width: 280px;
 }
 
 .linha {
@@ -94,7 +106,8 @@ main {
   margin-right: 8px;
 }
 
-.coluna li {
+.coluna-menor li {
+  display: flex;
   margin-top: 32px;
 }
 
@@ -102,12 +115,60 @@ main {
   display: inline-block;
 }
 
-ul,
-ol {
-  list-style-type: none;
-  padding: 0;
+.coluna-maior {
+  margin-left: 32px;
 }
 
-li {
-  padding-bottom: 20px;
+.habilidades {
+  display: Flex;
+  flex-wrap: wrap;
+}
+
+.coluna-maior h2 {
+  margin-top: 20px;
+  font-size: 48px;
+  margin-bottom: 20px;
+  margin-left: 18px;
+}
+
+.habilidade {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  margin: 12px;
+  width: 288px;
+}
+
+.habilidade h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.habilidade p {
+  font-size: 20px;
+}
+
+.progresso {
+  width: 100%;
+  display: flex;
+}
+
+.barra {
+  width: 20%;
+  margin-top: 8px;
+  height: 4px;
+  background: #6272a4;
+}
+
+.incompleto {
+  opacity: 0.2;
+}
+
+.habilidade li {
+  margin-top: 16px;
+}
+
+.habilidade li:nth-child(1) {
+  margin-top: 0;
 }
