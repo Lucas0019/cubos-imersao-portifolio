@@ -39,6 +39,7 @@ li {
 
 body {
   background: #eeeeef;
+  overflow-x: hidden;
 }
 
 header {
@@ -171,4 +172,60 @@ main {
 
 .habilidade li:nth-child(1) {
   margin-top: 0;
+}
+
+.ajuste-fino {
+  width: 380px;
+  height: 250px;
+}
+
+.projetos .projeto {
+  display: flex;
+}
+
+.card {
+  width: 392px;
+  padding: 24px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 12px;
+}
+
+.card a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #bd93f9;
+  color: white;
+  padding: 8px 24px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 4px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.card a:hover {
+  background: #a97ce8;
+  transition: 0.7;
+}
+
+.projeto h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #282a36;
+}
+
+.projeto p {
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+footer {
+  background: #272e39;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 57.6px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  width: 100vw;
+  text-align: center;
 }
