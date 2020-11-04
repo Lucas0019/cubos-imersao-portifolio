@@ -22,4 +22,10 @@
 
 ### Status do Projeto
 
-- Em Desenvolvimento
+- Projeto concluido 
+
+
+### Em breve - Novas features
+
+ - Responsividade
+ - Redesign do Portifólio 
