@@ -1,6 +1,6 @@
 <div align='center'>
   <img
-    src="#"
+    src="./assets/cubos.png"
     alt="Cubos_Academy"
     width="300px"
   />
@@ -9,8 +9,6 @@
 <h1 align="center">
     Imersão Cubos Academy | 2020
 </h1>
-
-
 
 ---
 
@@ -22,10 +20,9 @@
 
 ### Status do Projeto
 
-- Projeto concluido 
-
+- Projeto concluido
 
 ### Em breve - Novas features
 
- - Responsividade
- - Redesign do Portifólio 
+- Responsividade
+- Redesign do Portifólio
